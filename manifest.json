@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "DrFeelgood Live Extension",
+  "author" : "Github@Drakirus, Pierre Champion",
+  "description": "DrFeelgood Live Extension",
+  "version": "1.0",
+
+  "background": {"scripts": ["background.js"]},
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "notifications",
+    "tabs"
+  ],
+
+  "icons": {
+    "256": "icons/logo256.png",
+    "128": "icons/logo128.png",
+    "64": "icons/logo64.png",
+    "32": "icons/logo32.png"
+  },
+
+  "browser_action": {
+    "default_title": "DFG - Offline",
+    "default_popup": "popup.html",
+    "default_icon": "icon_OFFLINE.png"
+  }
+}

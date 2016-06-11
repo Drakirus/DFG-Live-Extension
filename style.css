@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?g1wlo3');
+    src: url('fonts/icomoon.eot?g1wlo3#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?g1wlo3') format('truetype'),
+    url('fonts/icomoon.woff?g1wlo3') format('woff'),
+    url('fonts/icomoon.svg?g1wlo3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  margin: 0;
+}
+.social-networks {
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
+.social-networks a {
+  display: block;
+  position: relative;
+  width: 41px;
+  height: 41px;
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  text-decoration: none;
+}
+.social-networks a:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  margin-top: -50%;
+  margin-left: -50%;
+  border-radius: 0px;
+  background-color: #1f2027;
+  transition: all 400ms;
+}
+.social-networks a:after {
+  position: relative;
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  font-size: 19px;
+  line-height: 41px;
+}
+.social-networks a:hover, .social-networks a:focus {
+  text-decoration: none;
+}
+.social-networks .icon-youtube:after {
+ content: "\ea9d";
+}
+.social-networks .icon-youtube:hover:before{
+  background: #CC181E;
+}
+.social-networks .icon-facebook:after {
+  content: "\ea90";
+}
+.social-networks .icon-facebook:hover:before{
+  background: #3b5998;
+}
+.social-networks .icon-twitter:after {
+ content: "\ea96";
+}
+.social-networks .icon-twitter:hover:before{
+  background: #00b0ed;
+}
+.social-networks .icon-twitch:after {
+  content: "\ea9f";
+}
+.social-networks .icon-twitch:hover:before{
+  background: #6441a5;
+}
+
+.online, .calendar {
+  display: block;
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+  color: #272727;
+  padding: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #FFF;
+  cursor: pointer;
+}
+
+.online:hover {
+  background: #6441a5;
+  color: #FFF;
+}
+
+.calendar:hover {
+  background: #9DD540;
+  color: #FFF;
+}
