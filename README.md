@@ -6,7 +6,7 @@ Preview:
 ![ScreenShot](https://raw.githubusercontent.com/Drakirus/DFG-Live-Extension/master/UPLOAD/screenshot.png)
 
 #### Installation (Version de demo)
-###### Google chrome Store [DFG-Live-Extension](https://chrome.google.com/webstore/detail/drfeelgood-live-extension/jgoamlhndmebiphljjpiolmfiopkeegd)
+##### Google chrome Store [DFG-Live-Extension](https://chrome.google.com/webstore/detail/drfeelgood-live-extension/jgoamlhndmebiphljjpiolmfiopkeegd)
 
 Le code est open à toute proposition de modification.  
 Pour Toutes questions `pierrescalade@gmail.com`.
