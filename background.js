@@ -5,6 +5,7 @@ var ClientNotified = false;
 // var channel = "drfeelgood";
 var channel = "drfeelgood";
 var title_data = "DFG est en ligne !";
+var channel_light = "DFG";
 
 function callback() {
   var xhr_object = new XMLHttpRequest();
@@ -41,10 +42,10 @@ function notify(streamTitle) {
 function toogleStream(value) {
   ClientNotified = value;
   if (value == true) {
-    chrome.browserAction.setTitle({title : "DFG - Online"});
+    chrome.browserAction.setTitle({title : channel_light + " - Online"});
     chrome.browserAction.setIcon({path:"icon_ONLINE.png"});
   }else{
-    chrome.browserAction.setTitle({title : "DFG - Offline"});
+    chrome.browserAction.setTitle({title : channel_light + " - Offline"});
     chrome.browserAction.setIcon({path:"icon_OFFLINE.png"});
   }
 }
