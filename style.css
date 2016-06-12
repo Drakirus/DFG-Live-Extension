@@ -100,6 +100,7 @@ li {
   text-decoration: none;
   background: #FFF;
   cursor: pointer;
+  border-top: 1px solid #000;
 }
 
 .online:hover {
