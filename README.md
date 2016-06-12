@@ -10,7 +10,7 @@ Le code est open à toute proposition de modification.
 Pour Toutes questions `pierrescalade@gmail.com`
 
 #### Planning
-En cliquent sur le lien "Ouvrir le Planning", L'image `calendar.png` sera affiche dans une pop-up
+En cliquent sur le lien "Ouvrir le Planning", L'image [calendar.png](https://raw.githubusercontent.com/Drakirus/DFG-Live-Extension/master/calendar.png) sera affiche dans une pop-up  
 Pour modifier le Planning il suffit de remplacer `calendar.png` sur le repo github (nouveau commit du fichier au même nom)
   
 ##### License MIT [License](https://github.com/Drakirus/DFG-Live-Extension/blob/master/LICENSE)
