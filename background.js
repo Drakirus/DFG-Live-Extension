@@ -9,11 +9,9 @@ var channel_light = "DFG";
 
 function callback() {
   var xhr_object = new XMLHttpRequest();
-
   xhr_object.onreadystatechange = function(){
     if (xhr_object.readyState==4 && xhr_object.status==200){
       var data = JSON.parse(xhr_object.responseText);
-
       if(data.stream != null ){ // channel is Online
         if (ClientNotified == false) {
           notify(data.stream.channel.status);
@@ -55,4 +53,5 @@ chrome.notifications.onClicked.addListener(function(){
 });
 
 setInterval(callback,60000);
+toogleStream(false);
 callback();
