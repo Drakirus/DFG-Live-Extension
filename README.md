@@ -8,7 +8,7 @@ Preview:
 #### Installation (Version de demo)
 ##### Google chrome Store [DFG-Live-Extension](https://chrome.google.com/webstore/detail/drfeelgood-live-extension/jgoamlhndmebiphljjpiolmfiopkeegd)
 ##### Google chrome crx [DFG-Live-Extension](https://raw.githubusercontent.com/Drakirus/DFG-Live-Extension/master/UPLOAD/google_chrome.crx)
-> Drag and drop .crx file in browser.
+> Drag and drop .crx file in chrome://extensions/
 
 #### Planning
 En cliquent sur le lien "Ouvrir le Planning", L'image [calendar.png](https://raw.githubusercontent.com/Drakirus/DFG-Live-Extension/master/calendar.png) sera affiche dans une pop-up.  
