@@ -2,7 +2,6 @@ var stream_url = "https://www.twitch.tv/drfeelgood";
 
 document.addEventListener("DOMContentLoaded", function(event) {
   chrome.browserAction.getTitle({}, function(title){
-
     if (title == "DFG - Online") {
       document.getElementById("ONLINE").innerHTML = `
         <div class='online'>DFG est en LIVE Go!</Div>`;
@@ -10,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     else {
       document.getElementById("ONLINE").innerHTML = "";
     }
-
   });
 
   var openStream = document.getElementById('ONLINE');
@@ -49,4 +47,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
       };
     })();
   }
-});
+}); // END DOMContentLoaded
