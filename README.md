@@ -3,7 +3,7 @@ DFG-Live-Extension
 
 #### Reworked Extension
 Preview:  
-![ScreenShot](https://raw.githubusercontent.com/Drakirus/DFG-Live-Extension/master/UPLOAD/screenshot.png)
+![ScreenShot](https://raw.githubusercontent.com/Drakirus/DFG-Live-Extension/master/UPLOAD/screenshot_1280x800.png)
 
 #### Installation (Version de demo)
 ##### Google chrome Store [DFG-Live-Extension](https://chrome.google.com/webstore/detail/drfeelgood-live-extension/jgoamlhndmebiphljjpiolmfiopkeegd)
