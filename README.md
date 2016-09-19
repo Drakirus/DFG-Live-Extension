@@ -18,3 +18,4 @@ Pour modifier le Planning il suffit de remplacer l'image `calendar.png` sur ce r
 ##### License [MIT](https://github.com/Drakirus/DFG-Live-Extension/blob/master/LICENSE)
 Le code est open à toute proposition de modification.  
 Pour toutes questions `pierrescalade@gmail.com`.
+
