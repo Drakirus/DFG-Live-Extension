@@ -2,10 +2,10 @@
 var ClientNotified = false;
 
 // Stream Data
-// var channel = "drfeelgood";
 var channel = "drfeelgood";
 var title_data = "DFG est en ligne !";
 var channel_light = "DFG";
+var client_id = "3evl4ykxvl1l43tmmmfcs96uhrcw0dh"
 
 function callback() {
   var xhr_object = new XMLHttpRequest();
@@ -23,7 +23,7 @@ function callback() {
     }
   }
 
-  var url = "https://api.twitch.tv/kraken/streams/" + channel;
+  var url = "https://api.twitch.tv/kraken/streams/" + channel + "?client_id=" + client_id;
   xhr_object.open("GET", url, true);
   xhr_object.send();
 }
